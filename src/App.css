@@ -1,0 +1,286 @@
+
+:root {
+    --primary-color: #646cff;
+    --primary-hover: #535bf2;
+    --background-color: #f8f9fa;
+    --text-color: #213547;
+    --card-background: #ffffff;
+    --border-radius: 12px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --error-color: #ff4444;
+    --success-color: #00C851;
+  }
+    
+    #root {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+    
+    .logo {
+      height: 6em;
+      padding: 1.5em;
+      will-change: filter;
+      transition: filter 300ms;
+    }
+    
+    .logo:hover {
+      filter: drop-shadow(0 0 2em var(--primary-color));
+    }
+    
+    h1 {
+      font-size: 3.2em;
+      line-height: 1.1;
+      margin: 1rem 0;
+      color: var(--text-color);
+    }
+    
+    .card {
+      padding: 2em;
+      background-color: var(--card-background);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      transition: transform 0.3s ease;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    
+    button {
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 0.6em 1.2em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: var(--primary-color);
+      color: white;
+      cursor: pointer;
+      transition: all 0.25s;
+      margin: 1rem 0;
+    }
+    
+    button:hover {
+      background-color: var(--primary-hover);
+      transform: scale(1.05);
+    }
+    
+    button:focus,
+    button:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
+    }
+    
+    .read-the-docs {
+      color: #888;
+      margin-top: 2rem;
+      font-size: 0.9em;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background-color: #242424;
+        --text-color: rgba(255, 255, 255, 0.87);
+        --card-background: #1a1a1a;
+      }
+      
+      button {
+        background-color: var(--primary-color);
+      }
+      
+      button:hover {
+        background-color: var(--primary-hover);
+      }
+    }
+    
+  
+  .App {
+      min-width: 100vw;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+    
+    .providers {
+     display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
+    padding: 0.6em 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    
+    .providers button {
+      width: 12em;
+    transition: all 0.3s ease;
+    background-color: var(--card-background);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow);
+    }
+    
+    .providers button img {
+      width: 2em;
+      height: 2em;
+      object-fit: contain;
+    }
+  
+    .mmError {
+      height: 36px;
+      padding: 16px;
+      color: #efefef;
+      background-color: transparent;
+    }
+  
+    .providers button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      border-color: var(--primary-color);
+    }
+  
+    .mmError {
+      height: 36px;
+      padding: 16px;
+      color: var(--error-color);
+      background-color: rgba(255, 68, 68, 0.1);
+      border-radius: var(--border-radius);
+      margin: 1rem auto;
+      max-width: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+    }
+    
+    hr {
+      border: none;
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 2rem auto;
+      max-width: 600px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background-color: #242424;
+        --text-color: rgba(255, 255, 255, 0.87);
+        --card-background: #1a1a1a;
+      }
+      
+      .providers button {
+        background-color: var(--card-background);
+        border-color: rgba(255, 255, 255, 0.1);
+      }
+      
+      hr {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  
+  
+  .metaMaskGuide {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .metaMaskGuide h2 {
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .guideSteps {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .step {
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .step h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .step p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .step ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .step li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  .installButton {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .installButton:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .step {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+  
+  .appContainer {
+      display: flex;
+      min-height: 100vh;
+    }
+    
+    .mainContent {
+      flex: 1;
+      margin-left: 200px;
+      padding: 2rem;
+    }
+    
+    .fileUpload {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: var(--card-background);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      text-align: center;
+    }

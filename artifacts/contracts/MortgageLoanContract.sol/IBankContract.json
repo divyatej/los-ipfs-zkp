@@ -1,0 +1,62 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IBankContract",
+  "sourceName": "contracts/MortgageLoanContract.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "personalIpfsHash",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "financialIpfsHash",
+          "type": "string"
+        }
+      ],
+      "name": "receiveForwardedLoan",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "personalIpfsHash",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "financialIpfsHash",
+          "type": "string"
+        }
+      ],
+      "name": "requestUserAccess",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

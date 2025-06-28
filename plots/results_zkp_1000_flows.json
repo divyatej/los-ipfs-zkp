@@ -1,0 +1,17 @@
+{
+  "numZkpFlows": 1000,
+  "totalTransactions": 2000,
+  "successfulTransactions": 2000,
+  "failedTransactions": 0,
+  "totalDurationSeconds": 256.542292158,
+  "overallTps": 7.795985539757454,
+  "averageLatencyMs": 6318.146564999988,
+  "maxLatencyMs": 20082.05,
+  "tpsByMethod": {
+    "storeProof": 3.897992769878727,
+    "applyForLoan": 3.897992769878727
+  },
+  "averageBlockSize": 21345.6,
+  "maxBlockSize": 21346,
+  "averageBlockTimeMs": 4015.873015873016
+}
