@@ -1,0 +1,18 @@
+{
+  "numIpfsFlows": 500,
+  "totalTransactions": 2000,
+  "successfulTransactions": 2000,
+  "failedTransactions": 0,
+  "totalDurationSeconds": 210.208998377,
+  "overallTps": 9.514340563162257,
+  "averageLatencyMs": 5141.469985000001,
+  "maxLatencyMs": 15077.08,
+  "tpsByMethod": {
+    "grantAccess": 4.7571702815811285,
+    "approveLoan": 2.3785851407905643,
+    "requestUserAccess": 2.3785851407905643
+  },
+  "averageBlockSize": 22352.97435897436,
+  "maxBlockSize": 22659,
+  "averageBlockTimeMs": 2897.0588235294117
+}

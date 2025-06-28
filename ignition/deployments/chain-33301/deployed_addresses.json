@@ -1,0 +1,16 @@
+{
+  "LoanEligibilityVerifierModule#LoanEligibilityVerifier": "0x5efB71BAAD1B2e0a36D05DDf2E0Ae73336941528",
+  "AccessControlModule#AccessControl": "0xa2774006cD5cB2118C469d99169cA450b3221b38",
+  "BankContractModule#AccessControl": "0xa2774006cD5cB2118C469d99169cA450b3221b38",
+  "BankContractModule#BankContract": "0x24aE3B7009950fB33f115B1115CAe45774412C5e",
+  "MortgageLoanContractModule#BankContract": "0x24aE3B7009950fB33f115B1115CAe45774412C5e",
+  "MortgageLoanContractModule#MortgageLoanContract": "0x52189aB0170624a21213da4c5f340C7f19a7878a",
+  "LoanContractModule#AccessControl": "0xa2774006cD5cB2118C469d99169cA450b3221b38",
+  "LoanContractModule#MortgageLoanContract": "0x52189aB0170624a21213da4c5f340C7f19a7878a",
+  "LoanContractModule#LoanContract": "0x7cE8288a19B68934930bff902bA304631c4387C8",
+  "MortgageContractModule#AccessControl": "0xa2774006cD5cB2118C469d99169cA450b3221b38",
+  "MortgageContractModule#MortgageContract": "0xc4Bf7b0E552F3c3Ce808FD28cf8e1CF24b4b3a3b",
+  "InitializeAccessControlModule#AccessControl": "0xa2774006cD5cB2118C469d99169cA450b3221b38",
+  "InitializeAccessControlModule#LoanContract": "0x7cE8288a19B68934930bff902bA304631c4387C8",
+  "InitializeAccessControlModule#LoanEligibilityVerifier": "0x5efB71BAAD1B2e0a36D05DDf2E0Ae73336941528"
+}
